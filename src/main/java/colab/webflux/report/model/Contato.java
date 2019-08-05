@@ -14,13 +14,16 @@ public class Contato {
 	private String sobrenome;
 	private String telefone;
 	
-	public Contato(String id, String nome, String sobrenome, String telefone) {
-		super();
-		this.id = id;
-		this.nome = nome;
-		this.sobrenome = sobrenome;
-		this.telefone = telefone;
-	}
+	
+	public Contato() {}
+	
+//	public Contato(String id, String nome, String sobrenome, String telefone) {
+//		super();
+//		this.id = id;
+//		this.nome = nome;
+//		this.sobrenome = sobrenome;
+//		this.telefone = telefone;
+//	}
 	
 	public String getId() {
 		return id;
